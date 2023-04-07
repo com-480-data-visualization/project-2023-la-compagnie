@@ -54,7 +54,7 @@ Please, fill the following sections about your project.
 > - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
 > - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
 
-> Visualization or just what they did with data ?
+> The WGMs glacier data has already been used around the world to make analyses and predictions about glacier evolution, especially about climate change.  The GLOFs data of the University of Potsdam are mainly a compilation of numerous datasets from historical archives or other available data. These data make it possible to visualise spatially and temporally the different GLOFs episodes recorded. These data make it possible to visualise spatially and temporally the different leakage episodes recorded but also an analysis of the bias existing because of the increasing of the data recorded. 
 
 > ???
 
