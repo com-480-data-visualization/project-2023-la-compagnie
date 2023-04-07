@@ -58,13 +58,13 @@ Please, fill the following sections about your project.
 
 > The WGMs glacier data has already been used around the world to make analyses and predictions about glacier evolution, especially about climate change.  The GLOFs data of the University of Potsdam are mainly a compilation of numerous datasets from historical archives or other available data. These data make it possible to visualise spatially and temporally the different GLOFs episodes recorded. These data make it possible to visualise spatially and temporally the different leakage episodes recorded but also an analysis of the bias existing because of the increasing of the data recorded. 
 
-> ???
-
+> One of our visualizations could be similar to one done by the authors of the dataset, (see http://glofs.geoecology.uni-potsdam.de). It is an interactive map over GLOFs, build upon this idea by for instance adding scrollbar for time. This would show this map at a particular point in time.
+> 
 > Lectures, 
 > Chart and Map here are very interesting and could be a source of inspiration (https://globaldatalab.org/)
 
 
-### Ressources
+### Resources
 
 > WGMS (2022): Fluctuations of Glaciers Database. World Glacier Monitoring Service (WGMS), Zurich, Switzerland. https://doi.org/10.5904/wgms-fog-2022-09
 
