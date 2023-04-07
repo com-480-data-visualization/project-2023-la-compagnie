@@ -2,7 +2,7 @@
 
 | Student's name | SCIPER |
 | -------------- | ------ |
-| Axel Andersson | |
+| Axel Andersson | 361936|
 | Eva Cramatte   | 297255 |
 | Antoine Salaün | |
 
@@ -24,9 +24,9 @@ Please, fill the following sections about your project.
 > Hint: some good pointers for finding quality publicly available datasets ([Google dataset search](https://datasetsearch.research.google.com/), [Kaggle](https://www.kaggle.com/datasets), [OpenSwissData](https://opendata.swiss/en/), [SNAP](https://snap.stanford.edu/data/) and [FiveThirtyEight](https://data.fivethirtyeight.com/)), you could use also the DataSets proposed by the ENAC (see the Announcements section on Zulip).
 
 
-> We will use "Fluctuations of Glaciers (FoG) Database" (https://wgms.ch/data_databaseversions/) by World Glacier Monitoring Service (WGMS), and "Glacier Lake Outburst Flood Database V3.0" (http://glofs.geoecology.uni-potsdam.de/) by the university of Postdam. 
+> We will use "Glacier Lake Outburst Flood Database V3.0" (Lützow, N., Veh, G., and Korup, O.: A global database of historic glacier lake outburst floods, Earth Syst. Sci. Data Discuss. [preprint], https://doi.org/10.5194/essd-2022-449). 
 
-> quality of data ???
+> The quality of the data is good. The source is very reputable, the creator of the dataset is Earth System Science Data (ESSD) which is an international journal which publishes articles which have used original research datasets. ESSD seems to have a high standard on data quality. The dataset is composed from various scientific experiments on glacier lake outburst floods (GLOFs) from different times and some of the data are manually mapped from the authors at ESSD (Natalie Lützow, Georg Veh, and Oliver Korup) such as the glacier lake areas before and after a GLOF has occurred. The fact that the dataset is a composition of many other datasets does however mean that there are a lot of missing values. Fortunately, the fields in the dataset which we intend to use the most does not have too many missing values. 
 
 ### Problematic
 
@@ -46,6 +46,7 @@ Please, fill the following sections about your project.
 
 > Pre-processing of the data set you chose
 > - Show some basic statistics and get insights about the data
+See eda.ipynb, the jupyter notebook contains some visualizations and descriptive statistics of the dataset as well as some comments!
 
 ### Related work
 
