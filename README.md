@@ -63,6 +63,13 @@ Please, fill the following sections about your project.
 > Lectures, 
 > Chart and Map here are very interesting and could be a source of inspiration (https://globaldatalab.org/)
 
+The WGMs glacier data has already been used around the world to make analyses and predictions about glacier evolution, especially about climate change. The GLOFs data of the University of Potsdam are mainly a compilation of numerous datasets from historical archives or other available data. These data make it possible to visualise spatially and temporally the different GLOFs episodes recorded. These data make it possible to visualise spatially and temporally the different leakage episodes recorded but also an analysis of the bias existing because of the increasing of the data recorded.
+
+We believe that our approach is original as the topic is niche but the consequences can be huge on populations. Moreover, by combining this dataset with climate change data, the GLOF events would be registered in a wider story. Eventhoug, GLOF events seem very randomly distributed, our goal is to show that this distribution is changing quickly with the rapid rate of global warming which is even more intense in glaciers (especially in the alps).
+
+On question that still has to be answered is wether the visualisation will focus on a certain region. If the amount of data is sufficient, we intend to restrict our focus to the alpine glacier lakes.
+
+The website following website offers a very complete map of GLOFs. However, the story behind this data is hard to read and we aim at vizualising this data with a stronger narrative.
 
 ### Resources
 
