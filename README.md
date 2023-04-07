@@ -46,6 +46,7 @@ Please, fill the following sections about your project.
 
 > Pre-processing of the data set you chose
 > - Show some basic statistics and get insights about the data
+> 
 > See eda.ipynb, the jupyter notebook contains some visualizations and descriptive statistics of the dataset as well as some comments!
 
 ### Related work
