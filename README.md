@@ -4,7 +4,7 @@
 | -------------- | ------ |
 | Axel Andersson | 361936|
 | Eva Cramatte   | 297255 |
-| Antoine Salaün | |
+| Antoine Salaün | 272621 |
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
 
@@ -59,7 +59,7 @@ Please, fill the following sections about your project.
 > The WGMs glacier data has already been used around the world to make analyses and predictions about glacier evolution, especially about climate change.  The GLOFs data of the University of Potsdam are mainly a compilation of numerous datasets from historical archives or other available data. These data make it possible to visualise spatially and temporally the different GLOFs episodes recorded. These data make it possible to visualise spatially and temporally the different leakage episodes recorded but also an analysis of the bias existing because of the increasing of the data recorded. 
 
 > One of our visualizations could be similar to one done by the authors of the dataset, (see http://glofs.geoecology.uni-potsdam.de). It is an interactive map over GLOFs, build upon this idea by for instance adding scrollbar for time. This would show this map at a particular point in time.
-> 
+
 > Lectures, 
 > Chart and Map here are very interesting and could be a source of inspiration (https://globaldatalab.org/)
 > The WGMs glacier data has already been used around the world to make analyses and predictions about glacier evolution, especially about climate change. The GLOFs data of the University of Potsdam are mainly a compilation of numerous datasets from historical archives or other available data. These data make it possible to visualise spatially and temporally the different GLOFs episodes recorded. These data make it possible to visualise spatially and temporally the different leakage episodes recorded but also an analysis of the bias existing because of the increasing of the data recorded.
@@ -69,6 +69,7 @@ We believe that our approach is original as the topic is niche but the consequen
 One question that still has to be answered is whether the visualisation will focus on a certain region. If the amount of data is sufficient, we intend to restrict our focus to the alpine glacier lakes.
 
 The following website offers a very complete map of GLOFs. However, the story behind this data is hard to read and we aim at vizualising this data with a stronger narrative. http://glofs.geoecology.uni-potsdam.de
+
 
 ### Resources
 
