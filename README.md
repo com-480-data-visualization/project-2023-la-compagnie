@@ -2,9 +2,9 @@
 
 | Student's name | SCIPER |
 | -------------- | ------ |
-| Axel Andersson | |
+| Axel Andersson | 361936|
 | Eva Cramatte   | 297255 |
-| Antoine Salaün | |
+| Antoine Salaün | 272621 |
 
 [Milestone 1](#milestone-1) • [Milestone 2](#milestone-2) • [Milestone 3](#milestone-3)
 
@@ -24,9 +24,9 @@ Please, fill the following sections about your project.
 > Hint: some good pointers for finding quality publicly available datasets ([Google dataset search](https://datasetsearch.research.google.com/), [Kaggle](https://www.kaggle.com/datasets), [OpenSwissData](https://opendata.swiss/en/), [SNAP](https://snap.stanford.edu/data/) and [FiveThirtyEight](https://data.fivethirtyeight.com/)), you could use also the DataSets proposed by the ENAC (see the Announcements section on Zulip).
 
 
-> We will use "Fluctuations of Glaciers (FoG) Database" (https://wgms.ch/data_databaseversions/) by World Glacier Monitoring Service (WGMS), and "Glacier Lake Outburst Flood Database V3.0" (http://glofs.geoecology.uni-potsdam.de/) by the university of Postdam. 
+> We will use "Glacier Lake Outburst Flood Database V3.0" (Lützow, N., Veh, G., and Korup, O.: A global database of historic glacier lake outburst floods, Earth Syst. Sci. Data Discuss. [preprint], https://doi.org/10.5194/essd-2022-449). 
 
-> quality of data ???
+> The quality of the data is good. The source is very reputable, the creator of the dataset is Earth System Science Data (ESSD) which is an international journal which publishes articles which have used original research datasets. ESSD seems to have a high standard on data quality. The dataset is composed from various scientific experiments on glacier lake outburst floods (GLOFs) from different times and some of the data are manually mapped from the authors at ESSD (Natalie Lützow, Georg Veh, and Oliver Korup) such as the glacier lake areas before and after a GLOF has occurred. The fact that the dataset is a composition of many other datasets does however mean that there are a lot of missing values. Fortunately, the fields in the dataset which we intend to use the most does not have too many missing values. 
 
 ### Problematic
 
@@ -46,6 +46,8 @@ Please, fill the following sections about your project.
 
 > Pre-processing of the data set you chose
 > - Show some basic statistics and get insights about the data
+> 
+> See eda.ipynb, the jupyter notebook contains some visualizations and descriptive statistics of the dataset as well as some comments!
 
 ### Related work
 
@@ -54,15 +56,22 @@ Please, fill the following sections about your project.
 > - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
 > - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
 
-> Visualization or just what they did with data ?
+> The WGMs glacier data has already been used around the world to make analyses and predictions about glacier evolution, especially about climate change.  The GLOFs data of the University of Potsdam are mainly a compilation of numerous datasets from historical archives or other available data. These data make it possible to visualise spatially and temporally the different GLOFs episodes recorded. These data make it possible to visualise spatially and temporally the different leakage episodes recorded but also an analysis of the bias existing because of the increasing of the data recorded. 
 
-> ???
+> One of our visualizations could be similar to one done by the authors of the dataset, (see http://glofs.geoecology.uni-potsdam.de). It is an interactive map over GLOFs, build upon this idea by for instance adding scrollbar for time. This would show this map at a particular point in time.
 
 > Lectures, 
 > Chart and Map here are very interesting and could be a source of inspiration (https://globaldatalab.org/)
+> The WGMs glacier data has already been used around the world to make analyses and predictions about glacier evolution, especially about climate change. The GLOFs data of the University of Potsdam are mainly a compilation of numerous datasets from historical archives or other available data. These data make it possible to visualise spatially and temporally the different GLOFs episodes recorded. These data make it possible to visualise spatially and temporally the different leakage episodes recorded but also an analysis of the bias existing because of the increasing of the data recorded.
+
+We believe that our approach is original as the topic is niche but the consequences can be huge on populations. Moreover, by combining this dataset with climate change data, the GLOF events would be registered in a wider story. Eventhoug, GLOF events seem very randomly distributed, our goal is to show that this distribution is changing quickly with the rapid rate of global warming which is even more intense in glaciers (especially in the alps).
+
+One question that still has to be answered is whether the visualisation will focus on a certain region. If the amount of data is sufficient, we intend to restrict our focus to the alpine glacier lakes.
+
+The following website offers a very complete map of GLOFs. However, the story behind this data is hard to read and we aim at vizualising this data with a stronger narrative. http://glofs.geoecology.uni-potsdam.de
 
 
-### Ressources
+### Resources
 
 > WGMS (2022): Fluctuations of Glaciers Database. World Glacier Monitoring Service (WGMS), Zurich, Switzerland. https://doi.org/10.5904/wgms-fog-2022-09
 
