@@ -91,6 +91,52 @@ The following website offers a very complete map of GLOFs. However, the story be
 
 **10% of the final grade**
 
+For this milestone we have come up with a pretty clear idea of what to do. A link to a functional but not yet finished website can be found [here](https://com-480-data-visualization.github.io/project-2023-la-compagnie/).
+
+### List of what we want to accomplish
+
+1. *3D map that shows GLOFS happening over time*
+    
+    The user has the possibility to use a slider to move across time. The slider will show information about the CO2 atmospheric concentration and the average temperature increase since pre-industrial time.
+    
+    GLOFs will pop out on the map as a localised tall cuboid. Over time, it will decrease in size and its base will spread out. It goes from a strong localised event at t=0 to a large spread out event at t=20y.
+    
+    The map will focus on the alps and its goal is to show where and when GLOFs happen and if they are related to climate change. A sketch of this visualization can be found here:
+    ![main_viz_sketch](https://user-images.githubusercontent.com/86422959/236472586-90de7e0f-00cd-4067-8164-3d3c07b0fee0.jpeg)
+    
+    An inspiring project can be found in this [repository](https://github.com/GeoForum/veiledning09). They analyse traffic data in Oslo, we aim to do something similar but for glacier lake outburst floods and with a toggle bar as mentioned above so that the user can move forwards and backwards in time.
+    
+2. *Interactive Globe*    
+
+    To also get an overview of how GLOFs are spread out in the rest of the world, we intend to make a visualization which looks something like the visualizations found on this [page](https://experiments.withgoogle.com/chrome/globe). A globe with data spikes that represent occurences of GLOFs. The globe will be interactive so that the user can spin it and view different parts of the world.
+    
+    The first visualization and this second one are the core visualizations.
+    
+3. *Selected statistics*
+    
+    A few specific statistics will be chosen to show the importance of GLOFs on population and how they consititute a natural catastrophe similar to earthquackes or typhoons
+    
+4. [BONUS] *Scatter plot of water volume over time*
+    
+    A sample of GLOF events (the ones that have volumetric data) will be shown as dots on the plot. Time is linked to the horizontal axis while volume is on the vertical axis. The color of the dot is linked to the continent where it happened. 
+    
+    When sliding the cursor over the dots, the dot will get a bit bigger revealing more data.
+    
+
+### Tools & Lectures
+To realise these visualizations we will use HTML, CSS and Javascript of course. The JS libraries which will be required for visualization 1 and 2 are primarily [three.js](https://threejs.org) for all the 3d stuff as well as [d3.js](https://d3js.org) to handle the data. To build the website we have used a free template from [StyleShout](https://styleshout.com) which has been quite extensively modified. The website is currently hosted at Github Pages.
+
+The lectures which will be useful for our project is, apart from all the lectures in the beginning about (HTML, CSS, JS and d3), the lecture on maps and the Do's & Don'ts lectures. 
+
+### Internal Milestones / Sub-Goals
+So far, we have a functioning website and we have also begun to implement the second visualization (the interactive globe). The code for the interactive globe can be found in the globe_viz.html file and the Javascript-code in the /js-folder, in the file called globe.js.
+
+We have yet to do:
+1. Integration of the interactive globe-visualization to the website
+2. Implementation of the first visualization (3D-map conceptualized in the sketch)
+3. Integration of second viz to website
+4. Implementation of other eventual bonus-vizzes.
+5. Overall prettifying of the website.
 
 ## Milestone 3 (4th June, 5pm)
 
