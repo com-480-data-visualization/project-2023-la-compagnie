@@ -129,7 +129,7 @@ To realise these visualizations we will use HTML, CSS and Javascript of course. 
 The lectures which will be useful for our project is, apart from all the lectures in the beginning about (HTML, CSS, JS and d3), the lecture on maps and the Do's & Don'ts lectures. 
 
 ### Internal Milestones / Sub-Goals
-So far, we have a functioning website and we have also begun to implement the second visualization (the interactive globe). The code for the interactive globe can be found in the globe_viz.html file and the Javascript-code in the /js-folder, in the file called globe.js.
+So far, we have a functioning website and we have also begun to implement the second visualization (the interactive globe), a demo video of what we have so far for this viz can be found in the globe-recording.zip file. The code for the interactive globe can be found in the globe_viz.html file and the Javascript-code in the /js-folder, in the file called globe.js.
 
 We have yet to do:
 1. Integration of the interactive globe-visualization to the website
