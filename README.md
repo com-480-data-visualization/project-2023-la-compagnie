@@ -126,6 +126,8 @@ For this milestone we have come up with a pretty clear idea of what to do. A lin
 ### Tools & Lectures
 To realise these visualizations we will use HTML, CSS and Javascript of course. The JS libraries which will be required for visualization 1 and 2 are primarily [three.js](https://threejs.org) for all the 3d stuff as well as [d3.js](https://d3js.org) to handle the data. To build the website we have used a free template from [StyleShout](https://styleshout.com) which has been quite extensively modified. The website is currently hosted at Github Pages.
 
+The lectures which will be useful for our project is, apart from all the lectures in the beginning about (HTML, CSS, JS and d3), the lecture on maps and the Do's & Don'ts lectures. 
+
 ### Internal Milestones / Sub-Goals
 So far, we have a functioning website and we have also begun to implement the second visualization (the interactive globe). The code for the interactive globe can be found in the globe_viz.html file and the Javascript-code in the /js-folder, in the file called globe.js.
 
