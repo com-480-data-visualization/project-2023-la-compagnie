@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "globe.gl": "^2.28.4",
+    "three": "^0.152.2",
+    "vite-plugin-string": "^1.2.1"
+  },
+  "devDependencies": {
+    "vite": "^4.3.4"
+  }
+}

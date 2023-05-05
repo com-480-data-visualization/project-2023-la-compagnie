@@ -1,0 +1,20 @@
+<!DOCTYPE html> 
+    <html lang="en"> 
+        <head> <meta charset="utf-8"> 
+            <title>GLOFs Globe Viz</title> 
+            <link href="css/tailwind.css" rel="stylesheet">
+            <style> body { margin: 0; } </style> 
+        </head> 
+        <body> 
+            <div class="flex h-screen bg-black">
+                <div class="w-1/2 flex flex-col justify-center px-8">
+                    <h1 class="text-white">Detta är en jordglob</h1>
+                    <p class="text-white">... och detta är lite mer text</p>
+                </div>
+                <div class="w-1/2" id="canvas-container">
+                    <canvas></canvas>
+                </div>
+            </div>
+            <script type="module" src="js/globe.js"></script> 
+        </body> 
+    </html>
