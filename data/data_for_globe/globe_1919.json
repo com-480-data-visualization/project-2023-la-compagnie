@@ -1,0 +1,1 @@
+{"schema":{"fields":[{"name":"lng","type":"number"},{"name":"lat","type":"number"},{"name":"Year","type":"string"},{"name":"Country","type":"string"},{"name":"size","type":"integer"},{"name":"color","type":"string"}],"primaryKey":["lng","lat"],"pandas_version":"1.4.0"},"data":[{"lng":-100.3,"lat":39.5,"Year":1919,"Country":"USA","size":71,"color":"blue"}]}
