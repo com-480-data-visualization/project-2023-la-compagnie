@@ -144,6 +144,20 @@ We have yet to do:
 
 **80% of the final grade**
 
+Link to website: [website](https://com-480-data-visualization.github.io/project-2023-la-compagnie/).
+
+### Explanation of Files
+
+index.html - Entry point to the website (main page)
+
+globe.html - Globe visualization HTML-file
+
+map_index.html - Map visualization HTML-file
+
+css/globe_styles.css and css/map_styles.css - CSS files to globe.html and map_index.html
+
+js/map.js - Map visualization Javascript file.
+
 
 ## Late policy
 
