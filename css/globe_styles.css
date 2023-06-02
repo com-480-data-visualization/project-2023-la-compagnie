@@ -96,3 +96,11 @@
   #help-button:hover {
     background-color: #111;
   }
+
+  #title-div {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size:      30px;
+    left:          50%;
+    text-align: center;
+  }
