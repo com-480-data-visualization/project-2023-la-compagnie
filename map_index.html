@@ -1,0 +1,83 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alps Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <link rel="stylesheet" href="css/map_styles.css">
+
+</head>
+<body>
+    <div id="map"></div>
+    <script src="js/alps_map.js"></script>
+</body>
+</html>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin="">
+</script>
+
+<script>
+    var map = L.map('map').setView([46.056, 7.126], 13);
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+   
+</script>
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flood Visualization</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <link rel="stylesheet" href="css/map_styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <header>
+      <ul id="navigation-bar">
+        <li><a href="index.html">Home</a></li>
+        <li><button id="help-button">Show Help</button></li>
+      </ul>
+    </header>
+    <div id="title-div">
+      <h1>Severity of GLOFs by Location through Time</h1>
+    </div>
+
+    <div id="help-div">
+      See how severe the glacier lake outburst floods (GLOFs) have been in the Alps since 1976. The slider allows you to see the floods that have occurred in a given year. The size and color of the circles represents the severity of the flood. The severity of the flood is determined by the quota between the lake area before and after the flood. The bigger the circle, the more severe the flood. The darker the circle, the more severe the flood. The map is interactive, so you can zoom in and out and click on the circles to see more information about the flood.
+    </div>
+    <div id="slider-container">
+      <input class="slider" type="range" min="1976" max="2021" step="1" value="2021" id="the-slider"/>
+    </div>
+    <div id="demo">
+      0.5
+    </div>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin="">
+    </script>
+
+    <script src="js/map.js"></script>
+</body>
+</html>
+
+
+
+
+

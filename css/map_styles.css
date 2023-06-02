@@ -1,3 +1,22 @@
+/*#map {
+    height: 800px;
+}
+*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 100vh;
+}
+
+/*
+input[type="range"] {
+    width: 80%;
+    margin: 20px auto;
+}
+*/
 .slider {
     -webkit-appearance: none;
     width: 100%;
@@ -27,18 +46,16 @@
     background: #04AA6D;
     cursor: pointer;
   }
-  body{
-    background-color: #131111;
-  }
+ 
   #demo {
-    color: #fff;
+    color: rgb(10, 1, 1);
     font-family: 'Roboto', sans-serif;
     font-size:      20px;
     left:          50%;
     text-align: center;
   }
   #help-div {
-    color: #fff;
+    color: rgb(7, 6, 6);
     font-family: 'Roboto', sans-serif;
     font-size:      16px;
     left:          50%;
@@ -95,4 +112,12 @@
 
   #help-button:hover {
     background-color: #111;
+  }
+
+  #title-div {
+    color: rgb(10, 1, 1);
+    font-family: 'Roboto', sans-serif;
+    font-size:      30px;
+    left:          50%;
+    text-align: center;
   }
