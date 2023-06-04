@@ -53,18 +53,28 @@
       </ul>
     </header>
     <div id="title-div">
-      <h1>Temperature and CO2 atmospheric changes evolution through Time</h1>
+      <h1>Temperature and atmospheric CO2 evolution through Time</h1>
     </div>
 
     <div id="help-div">
       See how the average temperature at the Earth's surface and the atmospheric concentration of CO2 have changed since 1959. The slider allows you to see the temperature and the CO2 concentration recorded in a given year. The color of the arrow represents the importance of the change. The more important this change is, the higher the risk of severe climatic events.
     </div>
     <div id="slider-container">
-      <input class="slider" type="range" min="1959" max="2022" step="1" value="2022" id="the-slider"/>
+      <input class="slider" type="range" min="1959" max="2022" step="1" value="2000" id="the-slider"/>
     </div>
     <div id="demo">
       0.5
     </div>
+    
+    <script>
+      const slider = document.getElementById('the-slider')
+      var output = document.getElementById("demo");
+      output.innerHTML = "Year: " + slider.value;
+
+      slider.oninput = function() {
+        output.innerHTML = "Year: " + this.value;
+        console.log(slider.value)
+        }
 
     <div id="map"></div>
 
