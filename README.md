@@ -144,6 +144,8 @@ We have yet to do:
 
 Link to website: [website](https://com-480-data-visualization.github.io/project-2023-la-compagnie/).
 
+Link to Screencast:  [screencast](https://www.youtube.com/watch?v=iT1K1TA7mXA).
+
 #### Explanation of Files
 
 index.html - Entry point to the website (main page)
